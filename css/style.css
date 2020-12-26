@@ -58,15 +58,15 @@ li.dropdown {
 }
 #titik{
     width: 50px;
-    margin-left: 1500px;
+    float: right;
 }
 #titikk{
     width: 80px;
     margin-right: 1500px;
 }
 #kaca{
-    width: 100px;
-    float: right;
+    width: 120px;
+    margin-left: 1500px;
 }
 
 .banner{

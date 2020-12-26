@@ -62,7 +62,11 @@ li.dropdown {
 }
 #titikk{
     width: 80px;
-    float: left;
+    margin-right: 1500px;
+}
+#kaca{
+    width: 100px;
+    float: right;
 }
 
 .banner{

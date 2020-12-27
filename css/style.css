@@ -79,8 +79,8 @@ li.dropdown {
 .banner h2{
     font-size: 48px;
 }
-. .banner h4{
-    font-size: 36px;
+.banner h4{
+    font-size: 30px;
 }
 .tombol{
     background-color: yellow;
@@ -98,6 +98,11 @@ li.dropdown {
 }
 #poster {
     width: 300px;
+    margin-right: 180px;
+    float: right;
+}
+#poster2 {
+    width: 250px;
     margin-right: 180px;
     float: right;
 }

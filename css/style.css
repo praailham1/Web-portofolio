@@ -66,25 +66,18 @@ li.dropdown {
     width: 80px;
     float: left;
 }
+
 .banner{
     margin: 200px;
 }
-.banner h1{
-    font-size: 72px;
-}
-.banner h2{
-    font-size: 48px;
-}
-.banner h4{
-    font-size: 24px;
-}
+
 .tombol{
     background-color: #F3DC60;
     padding: 15px 30px;
     margin-right: 10px;
     margin-top: 20px;
     border-color: pink;
-    border-: 10px;
+    border: 10px;
     font-size: large;
 }
 

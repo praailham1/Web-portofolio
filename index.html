@@ -49,10 +49,16 @@
       <h2>Hello,i'm</h2>
       <h1><b>ilham Prayoga</b></h1>
       <h4>I'm an informatics student at Telkom University that have interest in UI/UX.</h4>
-      <button class="btn btn-outline-secondary tombol"><b>Contact me</b></button>
-      <button class="btn btn-outline-secondary tombol"><b>Resume</b></button>
+      <a href="Resume.html">
+        <button class="btn btn-outline-secondary tombol"><b>Contact me</b></button>
+      </a>
+      <a href="Resume.html">
+        <button class="btn btn-outline-secondary tombol"><b>Resume</b></button>
+      </a>
     </div> 
+
     <!--akhir Hero banner-->
+
 
     <!--dekor-->
     <div>
@@ -95,7 +101,7 @@
     <!--Who am i-->
     <h2 class="text-center">Who am i</h2>
     <hr>
-    <h4 class="text-center">I’am a bachelor informatics student at Telkom University<br> have interest in UI/UX, im also have interest in Front end developer, currently have 1+ years experience using figma.</h4>
+    <h4 class="text-center" id="whoami">I’am a bachelor informatics student at Telkom University<br> have interest in UI/UX, im also have interest in Front end developer, currently have 1+ years experience using figma.</h4>
     <hr>
     <hr>
     <!--akhir Who am i-->
@@ -107,115 +113,48 @@
     </div>
   <!--dekor end-->
        <!--portofolio-->
-       <section class="portofolio" id="portofolio">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <h2>Portofolio</h2>
-              <hr>
-              <h2>UI Exploration</h2>
-              <hr>
-            </div>
-          </div>
-        
+       <div class="container">
         <div class="row">
-          <div class="col-sm-4">
-            <a href="" class="thumbnail">
-              <img src="img/5.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
-            </a>
+          <div class="col-sm-12 text-center">
+            <h2>Portofolio</h2>
+            <hr>
+            <h2>UI Exploration</h2>
+            <hr>
           </div>
-          <div class="col-sm-4">
-            <a href="" class="thumbnail">
-              <img src="img/2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="" class="thumbnail">
-              <img src="img/3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-            </a>
         </div>
-          <div class="col-sm-4">
-            <a href="" class="thumbnail">
-              <img src="img/4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="" class="thumbnail">
-              <img src="img/1.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
-            </a>
-          </div>
-          <div class="col-sm-4">
-            <a href="" class="thumbnail">
-              <img src="img/1.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
-            </a>
-          </div>
-        </div>  
-          <!-- The Modal/Lightbox -->
-      <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
-        <div class="modal-content">
-
-      <div class="mySlides">
-        <div class="numbertext">1 / 4</div>
-        <img src="img/5.png" style="width:100%">
+      
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="img/5.png" class="thumbnail">
+            <img src="img/5.png">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="img/2.jpg" class="thumbnail">
+            <img src="img/2.jpg">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="img/3.jpg" class="thumbnail">
+            <img src="img/3.jpg">
+          </a>
       </div>
-
-      <div class="mySlides">
-        <div class="numbertext">2 / 4</div>
-        <img src="img/2.jpg" style="width:100%">
-      </div>
-
-      <div class="mySlides">
-        <div class="numbertext">3 / 4</div>
-        <img src="img/3.jpg" style="width:100%">
-      </div>
-
-      <div class="mySlides">
-        <div class="numbertext">4 / 4</div>
-        <img src="img/4.jpg" style="width:100%">
-      </div>
-
-      <div class="mySlides">
-        <div class="numbertext">5 / 4</div>
-        <img src="img/1.png" style="width:100%">
-      </div>
-
-      <div class="mySlides">
-        <div class="numbertext">6 / 4</div>
-        <img src="img/1.jpg" style="width:100%">
-      </div>
-
-      <!-- Next/previous controls -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-      <!-- Caption text -->
-      <div class="caption-container">
-        <p id="caption"></p>
-      </div>
-
-      <!-- Thumbnail image controls -->
-      <div class="column">
-        <img class="demo" src="img/5.png" onclick="currentSlide(1)" alt="Blajar apps">
-      </div>
-      <div class="column">
-        <img class="demo" src="img/2.jpg" onclick="currentSlide(2)" alt="Healthy fewd">
-      </div>
-      <div class="column">
-        <img class="demo" src="img/3.jpg" onclick="currentSlide(3)" alt="Be master">
-      </div>
-      <div class="column">
-        <img class="demo" src="img/4.jpg" onclick="currentSlide(4)" alt="Music player">
-      </div>
-      <div class="column">
-        <img class="demo" src="img/1.jpg" onclick="currentSlide(5)" alt="Web portofolio">
-      </div>
-      <div class="column">
-        <img class="demo" src="img/1.png" onclick="currentSlide(6)" alt="Yamaha R1m">
-      </div>
-    </div>
-</div> 
-      </div>
+        <div class="col-sm-4">
+          <a href="img/4.jpg" class="thumbnail">
+            <img src="img/4.jpg">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="img/1.png" class="thumbnail">
+            <img src="img/1.png">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="img/1.jpg" class="thumbnail">
+            <img src="img/1.jpg">
+          </a>
+        </div>
+      </div>  
       <hr>
       <div>
         <h2 class="text-center">UX Study case</h2>
@@ -223,7 +162,9 @@
         <img src="img/poster.png" id="poster">
         <h2 class="text-left" id="ux"><b>FJB Sampah Mobile App</b></h2>
         <h3 class="text-left"id="ux">is an application that allow user to do a waste <br> transaction, user can buy a waste, sell a waste, track order<br>and also user can do many such things in this application </h3>
+        <a href="https://praailham.medium.com/" >
         <button id="readmore"><b>Read More</b></button>
+        </a>
         <hr>
       </div>
       <div>
@@ -231,15 +172,18 @@
         <img src="img/poster2.png" id="poster2">
         <h2 class="text-left" id="ux"><b>Blajar Mobile App</b></h2>
         <h3 class="text-left"id="ux">is an application for online course <br>where user can choose a course, take the course <br>and also user can get certification after finish the course </h3>
-        <button id="readmore"><b>Read More</b></button>
+        <a href="https://praailham.medium.com/" >
+          <button id="readmore"><b>Read More</b></button>
+        </a>
         <hr>
         <hr>
+        <img src="img/Titik Kuning.png" id="titikk">
         <hr>
         <hr>
         <hr>
         <hr>
       </div>
-      </section>
+    </section>
       <!--akhir portofolio-->
       
       <!--Contact-->
@@ -256,47 +200,8 @@
       <!--akhir contact-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script>
-      // Open the Modal
-      function openModal() {
-        document.getElementById("myModal").style.display = "block";
-      }
       
-      // Close the Modal
-      function closeModal() {
-        document.getElementById("myModal").style.display = "none";
-      }
-      
-      var slideIndex = 1;
-      showSlides(slideIndex);
-      
-      // Next/previous controls
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
-      
-      // Thumbnail image controls
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-      
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("demo");
-        var captionText = document.getElementById("caption");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-        captionText.innerHTML = dots[slideIndex-1].alt;
-      }
-      </script>
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>

@@ -94,13 +94,6 @@ li.dropdown {
 #whoami{
     font-size: 28px;
 }
-#back{
-  padding: 10px 300px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-right:500px;
-  background-color: #F3DC60;
-}
 /*------------End Who am i  area----------------*/
 
 #kaca{
@@ -133,12 +126,6 @@ li.dropdown {
 
 /*------------Portofolio area----------------*/
 
-#kontak {
-    width: 1700px;
-    height: 400px;
-    left: 0px;
-    margin-top: 300px;
-}
 footer {
     background-color: #F3DC60;
     width: 100%;
